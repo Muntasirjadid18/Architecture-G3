@@ -50,6 +50,12 @@ a.active,a:hover{
 #check{
     display: none;
 }
+
+.img {
+ display: block;
+margin: 0px auto;
+}
+
 @media (max-width: 952px){
     label.head{
         font-size: 30px;
