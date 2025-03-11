@@ -208,14 +208,34 @@ section .img3 img{
    text-align: center;
 }
 footer h1{
-    padding: 10px 12px;
+    padding: 10px 25px;
     font-size: 40px;
     padding-bottom: 10px; 
 }
 footer .content3 p{
-    padding: 10px 12px;
+    padding: 10px 25px;
   color: rgba(114, 114, 114, 1);
 }
+footer .box1{
+    height: 150px;
+    width: 150px;
+  border: 1.5px solid rgba(255, 144, 14, 1);
+  padding: 20px 22px;
+  border-radius: 8px;
+  margin: 80px 30px;
+  justify-content: center;
+  text-align: center;
+}
+footer .box1 i{
+    font-size: 32px;
+
+}
+
+.border-box1{
+    display: flex;
+    justify-content: center;
+}
+
 @media (max-width: 952px){
     label.head{
         font-size: 30px;
@@ -274,10 +294,16 @@ footer .content3 p{
         width: 450px;
     }
     section .img3 img{
+        height: 600px;
         width: 420px;
         padding: 15px 10px;
     }
     .img3 a{
         margin-left: 3px;
+    }
+    .border-box1{
+        display: block;
+  flex-wrap: wrap;
+  padding: 0 100px;
     }
 }
