@@ -258,7 +258,21 @@ footer .sponser .img4{
 footer .sponser .img4 img{
 margin: 40px 52px;
 }
-
+footer .footer-border{
+    height: 10px;
+    width: 1000px;
+  border: 1.5px solid rgba(255, 244, 231, 1);
+  background: rgba(255, 244, 231, 1);
+  padding: 20px 22px;
+  border-radius: 6px;
+  margin: 45px 100px;
+  justify-content: center;
+  text-align: center;
+}
+footer .footer-border p{
+    color: rgba(66, 66, 66, 1);
+    text-align: center;
+}
 @media (max-width: 952px){
     label.head{
         font-size: 30px;
@@ -267,6 +281,10 @@ margin: 40px 52px;
     nav ul li a{
         font-size: 16px;
     }
+    .img3 a{
+        margin-right: -40px;
+    }
+    
 }
 @media(max-width:858px){
     .checkbtn{
@@ -331,5 +349,15 @@ margin: 40px 52px;
     }
     footer .sponser .img4{
         flex-wrap: wrap;
+    }
+    footer .footer-border{
+        width: 450px;
+        height: 20px;
+        margin: 45px 8px;
+    }
+    footer .footer-border p{
+        color: rgba(66, 66, 66, 1);
+        text-align: center;
+        padding: 0 22px;
     }
 }
